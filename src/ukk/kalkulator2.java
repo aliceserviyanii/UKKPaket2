@@ -391,9 +391,9 @@ dispose();
 
     private void kurangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kurangActionPerformed
       angka1=Double.parseDouble(tampil.getText());
-      tampil.setText("-");
+      tampil.setText("-" );
         angka=""; 
-        pilih=4;
+        pilih=2;
 // TODO add your handling code here:
     }//GEN-LAST:event_kurangActionPerformed
 
@@ -537,6 +537,8 @@ angka(evt);        // TODO add your handling code here:
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(kalkulator2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
